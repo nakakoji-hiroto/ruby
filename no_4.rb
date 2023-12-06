@@ -1,5 +1,5 @@
 bag = 700 #65
-track = 0 #52
+truck = 0 #52
 
 while bag > 0 do
   sum = 0
@@ -9,13 +9,13 @@ while bag > 0 do
       bag = bag - 1
     end
     if bag == 0 && sum != 0
-      track = track + 1
-      puts track
+      truck = truck + 1
+      puts truck
       return
     elsif bag == 0
-      puts track
+      puts truck
       return
     end
   end
-  track = track + 1
+  truck = truck + 1
 end
